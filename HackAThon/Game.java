@@ -24,7 +24,7 @@ public class Game{
                 System.out.printf("You have chosen %s\n", creatures.get(why));
                 choiceValid = true;
             } catch (Exception e){
-                System.out.println("Please choose a valid number - idiot");
+                System.out.println("Please choose a valid number!");
                 choice = System.console().readLine();
             }
         }

@@ -59,7 +59,7 @@ public class User  {
                     slowDisplay(String.format("You have chosen %s\n", this.getMoveList().get(why2)));
                     choiceValidMove = true;
                 } catch (Exception e){
-                    System.out.println("Please choose a valid number \n");
+                    System.out.println("Please choose a valid number!\n");
                     moveIndex = System.console().readLine();
             }
         }
