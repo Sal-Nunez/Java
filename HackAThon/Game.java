@@ -51,7 +51,7 @@ public class Game{
         } else if (creatures.get(x).equals("Lion")){
             computer = new Lion("Evil Lion");
         }
-         
+        
         System.out.println("------------------------");
         player.displayStats();
         System.out.println("------------------------");
@@ -96,7 +96,7 @@ public class Game{
         for (int i = 0; i < chars.length; i++) {
             System.out.print(chars[i]);
             try{
-            Thread.sleep(100);
+            Thread.sleep(200);
             } catch (InterruptedException e) {}
         }
     }
